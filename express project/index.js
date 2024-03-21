@@ -7,7 +7,7 @@ const cors = require ("cors")
 const multermid = require("./Middlewares/Multer")
 const { createItemHandler, getAllItems } = require("./controllers/Admincontroller")
 const { likehandler,unlikehandler, dislikehandler, undislikehandler, reviewhandler} = require ("./controllers/Postcontroller")
-
+require('dotenv').config();
 const port = 4000  
 const url = 'mongodb://localhost:27017/projectDB'
 

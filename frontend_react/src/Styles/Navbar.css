@@ -1,0 +1,50 @@
+/* Navbar.css */
+nav {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  .logo {
+    font-size: 1.5rem;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+  }
+  
+  .nav-links li {
+    margin-right: 20px;
+  }
+  
+  .nav-links li a {
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  .auth-buttons a { 
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    margin: 10px;
+text-decoration: none;
+    padding: 8px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .auth-buttons a:hover {
+    background-color: #0056b3;
+  }
+  
